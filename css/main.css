@@ -1,3 +1,10 @@
+/*Colors:
+  Gray: #4A6881
+  Pink: #DF5160
+  White: #C6CECC
+  Lt. Blue: #5AB2B5
+  Dk. Blue: #1E3B4B*/
+
 video{
   min-width: 100%;
   min-height: 100%;
@@ -5,4 +12,8 @@ video{
   height: auto;
   background: url(./media/background.jpg)no-repeat;
   background-size: cover;
+}
+
+.navColor{
+  background-color: #4A6881;
 }
