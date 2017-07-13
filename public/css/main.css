@@ -27,6 +27,23 @@ a.linkFont:hover{
   color: #DF5160;
 }
 
+.volunteerBack{
+  background-color: #1E3B4B;
+  color: white;
+}
+
+.whiteFont{
+  color: white;
+}
+
+.centerText{
+  text-align: center;
+}
+
+.rightText{
+  text-align: right;
+}
+
 @media screen and (max-width: 999px){
   .burgerMenu{
     background-color: white;
