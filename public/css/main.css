@@ -12,8 +12,23 @@ video{
   height: auto;
   background: url(./media/background.jpg)no-repeat;
   background-size: cover;
+  /*opacity: .7;*/
 }
 
 .navColor{
-  background-color: #4A6881;
+  background-color: transparent;
+  z-index: 1;
+  width: 100%;
+  position: absolute;
+}
+
+a.linkFont:hover{
+  background-color: transparent;
+  color: #DF5160;
+}
+
+@media screen and (max-width: 999px){
+  .burgerMenu{
+    background-color: white;
+  }
 }
