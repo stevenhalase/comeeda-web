@@ -22,35 +22,35 @@ video{
   position: absolute;
 }
 
-a.linkFont:hover{
+a.linkFont:hover {
   background-color: transparent;
   color: #DF5160;
 }
 
-.volunteerBack{
-  background-color: #1E3B4B;
-  color: white;
+.volunteerBack {
+   background-color: #1E3B4B;
+   color: white;
 }
 
-.aboutBack{
+.aboutBack {
   background-color: #5AB2B5;
   color: white;
 }
 
-.whiteFont{
+.whiteFont {
   color: white;
 }
 
-.centerText{
+.centerText {
   text-align: left;
 }
 
-.rightText{
+.rightText {
   text-align: right;
 }
 
 @media screen and (max-width: 999px){
-  .burgerMenu{
+  .burgerMenu {
     background-color: white;
   }
 }
