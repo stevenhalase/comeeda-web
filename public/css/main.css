@@ -5,14 +5,51 @@
   Lt. Blue: #5AB2B5
   Dk. Blue: #1E3B4B*/
 
-video{
+/*video{
   min-width: 100%;
   min-height: 100%;
   width: auto;
   height: auto;
   background: url(./media/background.jpg)no-repeat;
   background-size: cover;
-  /*opacity: .7;*/
+  opacity: .7;
+}*/
+
+.backImage{
+  opacity: 0.65;
+}
+
+.overlay {
+    position: relative;
+    text-align: center;
+    color: #1E3B4B;
+    font-weight: bold;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 300%;
+}
+
+.pulsate{
+  -webkit-animation: pulsate 3s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  opacity: 0.5;
+}
+
+@-webkit-keyframes pulsate {
+    0% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        opacity: 0.5;
+    }
 }
 
 .navColor{
